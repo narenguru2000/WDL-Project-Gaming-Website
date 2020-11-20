@@ -235,3 +235,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 	margin: 30px auto 10px auto;
 	width:50%;
 }
+
+/*for heading*/
+#playHeading{
+  font-family: 'Dancing Script', cursive;
+}
