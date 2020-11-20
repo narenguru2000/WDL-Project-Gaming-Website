@@ -238,3 +238,29 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 #playHeading{
   font-family: 'Dancing Script', cursive;
 }
+
+
+
+
+
+
+
+/*thanking page css script*/
+
+body.text{
+	background-color: rgb(247, 219, 219);
+    display: block;
+    margin-top: 15rem;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+#playHeading{
+  font-family: 'Dancing Script', cursive;
+}
+
+/*thanking.html css script ends*/
