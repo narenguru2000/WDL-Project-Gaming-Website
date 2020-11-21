@@ -45,7 +45,7 @@
     </section>
 
     <!-- Signup Form -->
-    <form class="white-box">
+    <form class="white-box" action="php/registration.php" method="POST">
         <img src="images/signin.png" alt="Login" class="img-fluid img">
 
         <!-- Name -->
@@ -63,7 +63,7 @@
         <!-- Email -->
         <div class="form-group">
             <label for="email">Email address:</label>
-            <input type="email" class="form-control" id="email" autocomplete="off" aria-describedby="emailHelp"
+            <input type="email" class="form-control" name="email" id="email" autocomplete="off" aria-describedby="emailHelp"
                 required>
             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
@@ -71,7 +71,7 @@
         <!-- Password -->
         <div class="form-group">
             <label for="exampleInputPassword1">Password:</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" required>
+            <input type="password" class="form-control" name="password" id="exampleInputPassword1" required>
         </div>
 
         <!-- T&C -->
