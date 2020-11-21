@@ -5,7 +5,7 @@
 <?php
 
 session_start();
-//connection          //server    //db_user   //database
+//connection          //server    //db_user   //db_name
 $db = mysqli_connect('localhost', 'root','','gamingsnap');
 if (mysqli_connect_errno()) {
   printf("Connect failed: %s\n", mysqli_connect_error());
