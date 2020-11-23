@@ -31,6 +31,10 @@ if($alredy_user){
 else{
     $user_insert_query = " INSERT INTO users (name,username,email,password) VALUES('$name','$username','$email','$en_pass')";
     mysqli_query($db,$user_insert_query);
-    echo "registered";
+    //echo "registered";
 }
+?>
+<?php
+        echo "<script> location.href='http://localhost/WDL-Project-Gaming-Website/Gaming%20Website/login.html'; </script>";
+        exit;
 ?>
