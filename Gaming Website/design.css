@@ -228,11 +228,18 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .snap-border-dark-grey,.snap-hover-border-dark-grey:hover,.snap-border-dark-gray,.snap-hover-border-dark-gray:hover{border-color:#616161!important}
 .snap-border-pale-red,.snap-hover-border-pale-red:hover{border-color:#ffe7e7!important}.snap-border-pale-green,.snap-hover-border-pale-green:hover{border-color:#e7ffe7!important}
 .snap-border-pale-yellow,.snap-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.snap-border-pale-blue,.snap-hover-border-pale-blue:hover{border-color:#e7ffff!important}
+.snap-button-social{border:none;display:inline-block;padding:4px 8px;vertical-align:center;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap;}
+
+
 .center{
 	display: block;
 	margin: 30px auto 10px auto;
 	width:50%;
 }
+
+
+
+
 
 /*for heading*/
 #playHeading{

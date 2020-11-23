@@ -8,6 +8,9 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<!-- fontawesome.com link for icons -->
+<script src="https://kit.fontawesome.com/yourcode.js"></script>
+
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
@@ -25,7 +28,7 @@ body, html {
 }
 
 .snap-bar .snap-button {
-  padding: 16px;
+  padding: 10px;
 }
 </style>
 <body>
@@ -44,6 +47,10 @@ body, html {
       <a href="#pledge" class="snap-bar-item snap-button"><i class="fa fa-th"></i> Our Pledge</a>
 
       <a href="#contact" class="snap-bar-item snap-button"><i class="fa fa-envelope"></i> Contact</a>
+
+      <a href="#" class="snap-bar-item snap-button"><i class="fa fa-sign-in" aria-hidden="true"></i> SignIn</a>
+
+      <a href="#" class="snap-bar-item snap-button">New User! SignUp</a>
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
@@ -80,45 +87,46 @@ body, html {
 
 <!-- About Section -->
 <div class="snap-container" style="padding:64px 16px" id="about">
-  <h3 class="snap-center">ABOUT THE COMPANY</h3>
-  <p class="snap-center snap-large">Key features of our company</p>
+  <h3 class="snap-center">ABOUT THE WEBSITE</h3>
+  <p class="snap-center snap-large">Key features of our website</p>
   <div class="snap-row-padding snap-center" style="margin-top:64px">
     <div class="snap-quarter">
       <i class="fa fa-desktop snap-margin-bottom snap-jumbo snap-center"></i>
-      <p class="snap-large">Responsive Games</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      <p class="snap-large">Mind Refreshing Games</p>
+      <p>This is the platform which is made for the people who want to refresh there mind and too by doing some chill stuff.</p>
     </div>
     <div class="snap-quarter">
       <i class="fa fa-heart snap-margin-bottom snap-jumbo"></i>
       <p class="snap-large">Passion</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      <p>We are passionate for creating some good gaming stuff for our audience so that they can have some fun playing games.</p>
     </div>
     <div class="snap-quarter">
       <i class="fa fa-diamond snap-margin-bottom snap-jumbo"></i>
       <p class="snap-large">Design</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      <p>We also focus on our game design as well as the frontend animation that we use so that it also look like some simple sort of thing.</p>
     </div>
     <div class="snap-quarter">
       <i class="fa fa-cog snap-margin-bottom snap-jumbo"></i>
       <p class="snap-large">Support</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      <p>We are currently in developing stage so we work as per the feedback of our audience. So please give us feedback to get better and better.</p>
     </div>
   </div>
 </div>
 
 <!-- Team Section -->
-<div class="snap-container snap-light-grey" style="padding:64px 16px" id="team">
+<div class="snap-container snap-light-grey" style="padding:16px 4px 40px 4px;" id="team">
   <h3 class="snap-center">THE TEAM</h3>
   <p class="snap-center snap-large">The ones who handles this website</p>
-  <div class="snap-row-padding" style="margin-top:64px">
+  <div class="snap-row-padding" style="margin-top:16px">
     <div class="snap-col l3 m6 snap-margin-bottom">
       <div class="snap-card">
         <img src="./images/ayushBhai.jpg" alt="Ayush" style="width:100%">
         <div class="snap-container">
           <h3>Ayush Chaudhari</h3>
           <p class="snap-opacity">Developer</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="snap-button snap-light-grey snap-block"><i class="fa fa-envelope"></i><a href="https://www.linkedin.com/in/ayush-chaudhari/" target="_blank"> Contact</a></button></p>
+          <p></p>
+          <p><button class="snap-button-social snap-light-grey" style="border:none"><i class="fa fa-linkedin snap-hover-opacity"></i><a href="https://www.linkedin.com/in/ayush-chaudhari/" target="_blank"> LinkedIn</a></button>
+          <button class="snap-button-social snap-light-grey" style="border:none"><i class="fa fa-github" aria-hidden="true"></i><a href="https://github.com/ayushchaudhari" target="_blank"> Github</a></button></p>
         </div>
       </div>
     </div>
@@ -128,8 +136,8 @@ body, html {
         <div class="snap-container">
           <h3>Pavan Kulkarni</h3>
           <p class="snap-opacity">Developer</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="snap-button snap-light-grey snap-block"><i class="fa fa-envelope"></i><a href="https://www.linkedin.com/in/kulkarni-pavan/" target="_blank"> Contact</a></button></p>
+          <p><button class="snap-button-social snap-light-grey" style="border:none"><i class="fa fa-linkedin snap-hover-opacity"></i><a href="https://www.linkedin.com/in/kulkarni-pavan/" target="_blank"> LinkedIn</a></button>
+          <button class="snap-button-social snap-light-grey" style="border:none"><i class="fa fa-github" aria-hidden="true"></i><a href="https://github.com/pavan6115" target="_blank"> Github</a></button></p>
         </div>
       </div>
     </div>
@@ -138,9 +146,9 @@ body, html {
         <img src="./images/narendraBhai.jpg" alt="Narendra" style="width:100%">
         <div class="snap-container">
           <h3>Narendraguru</h3>
-          <p class="snap-opacity">Web Designer</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="snap-button snap-light-grey snap-block"><i class="fa fa-envelope"></i><a href="https://github.com/narenguru2000" target="_blank"> Contact</a></button></p>
+          <p class="snap-opacity">Web Developer</p>
+          <p><button class="snap-button-social snap-light-grey"><i class="fa fa-linkedin snap-hover-opacity"></i><a href="" target="_blank"> LinkedIn</a></button>
+          <button class="snap-button-social snap-light-grey"><i class="fa fa-github" aria-hidden="true"></i><a href="https://github.com/narenguru2000" target="_blank"> Github</a></button></p>
         </div>
       </div>
     </div>
@@ -149,9 +157,9 @@ body, html {
         <img src="./images/samrudhBhai.jpg" alt="Samrudh" style="width:100%">
         <div class="snap-container">
           <h3>Samrudh Uchil</h3>
-          <p class="snap-opacity">Designer</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="snap-button snap-light-grey snap-block"><i class="fa fa-envelope"></i><a href="https://www.linkedin.com/in/samrudhuchil/" target="_blank"> Contact</a></button></p>
+          <p class="snap-opacity">Web Developer</p>
+          <p><button class="snap-button-social snap-light-grey"><i class="fa fa-linkedin snap-hover-opacity"></i><a href="https://www.linkedin.com/in/samrudhuchil/" target="_blank"> LinkedIn</a></button>
+          <button class="snap-button-social snap-light-grey"><i class="fa fa-github" aria-hidden="true"></i><a href="https://github.com/samrudhuchil" target="_blank"> Github</a></button></p>
         </div>
       </div>
     </div>
@@ -159,19 +167,19 @@ body, html {
 </div>
 
 <!-- Promo Section "Statistics" -->
-<div class="snap-container snap-row snap-center snap-dark-grey snap-padding-64">
+<div class="snap-container snap-row snap-center snap-dark-grey snap-padding-16">
   <div class="snap-quarter center">
-    <span class="snap-xxlarge">20+</span>
+    <span class="snap-xlarge">20+</span>
     <br>Gamers Count
   </div>
   <div class="snap-quarter center">
-    <span class="snap-xxlarge">2</span>
+    <span class="snap-xlarge">2</span>
     <br>Total Games
   </div> 
 </div>
 
-<!-- Skills Section -->
-<div class="snap-container snap-light-grey snap-padding-64" id="pledge">
+<!-- pledge Section -->
+<div class="snap-container snap-light-grey" id="pledge" style="padding: 32px 32px 64px 32px;">
   <div class="snap-row-padding">
     <div class="snap-col m6">
       <h3>Our Pledge</h3>
@@ -196,9 +204,8 @@ body, html {
     </div>
   </div>
 </div>
-
 <!-- Contact Section -->
-<div class="snap-container snap-light-grey" style="padding:64px 16px 32px 16px" id="contact">
+<div class="snap-container snap-padding-32" style="padding:32px 16px 32px 16px; background-color: black; color:white;" id="contact">
   <h3 class="snap-center">CONTACT</h3>
   <p class="snap-center snap-large">Lets get in touch. Send your valuable feedback and help us grow:</p>
   <div style="margin-top:48px">
@@ -220,12 +227,12 @@ body, html {
 
 
 
-    <!-- Image of location/map -->
-    <img src="./images/Mumbai.jpg" class="snap-image center">
-    <p style="text-align: center;"><strong>A Made in India concept</strong></p>
+    <!-- Image  -->
+    <img src="./images/mumbai-night-time.jpg" class="snap-image center">
+    <p style="text-align: center; font-size: 20px;"><strong>A Made in India concept</strong></p>
   </div>
 </div>
-<h1 style="text-align: center; margin-top:20px;">Website Under Development!!</h1>
+<h1 style="text-align: center; margin-top:10px; background-color:tomato; ">Website Under Development!!</h1>
 <!-- Footer -->
 <footer class="snap-center snap-black snap-padding-64">
   <a href="#home" class="snap-button snap-light-grey"><i class="fa fa-arrow-up snap-margin-right"></i>To the top</a>
